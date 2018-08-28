@@ -27,4 +27,9 @@ public class MainActivity extends Activity {
         Intent it = new Intent(this, DadosPessoaisActivity.class);
         startActivity(it);
     }
+    public void AbrirContato(View view){
+        //Intentity -> inteção de fazer algo
+        Intent it = new Intent(this, ContatoActivity.class);
+        startActivity(it);
+    }
 }
